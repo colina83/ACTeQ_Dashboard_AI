@@ -51,8 +51,8 @@ def plot_model(data):
 
 
     fig = px.scatter_3d(data,
-                    x='lat',
-                    y='lon',
+                    x='lon',
+                    y='lat',
                     z='speed',
                     color='direction',)
 
